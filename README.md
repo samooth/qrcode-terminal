@@ -1,4 +1,4 @@
-# QRCode Terminal Edition [![Build Status][travis-ci-img]][travis-ci-url]
+# QRCode Terminal Edition
 
 > Going where no QRCode has gone before.
 
@@ -76,8 +76,4 @@ To run tests run `npm test`
     Gord Tanner <gtanner@gmail.com>
     Micheal Brooks <michael@michaelbrooks.ca>
 
-[travis-ci-img]: https://travis-ci.org/samooth/qrcode-terminal.png
-[travis-ci-url]: https://travis-ci.org/samooth/qrcode-terminal
-[basic-example-img]: https://raw.github.com/samooth/qrcode-terminal/master/example/basic.png
-[node-qrcode-url]: https://github.com/soldair/node-qrcode
 

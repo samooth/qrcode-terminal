@@ -1,5 +1,5 @@
 {
-  "name": "qrcode-terminal",
+  "name": "@samooth/qrcode-terminal",
   "type:": "module",
   "keywords": [
     "ansi",
@@ -19,7 +19,7 @@
       "name": "Tomás Díaz",
       "email": "tomas@bsv.direct",
       "url": "http://github.com/samooth"
-    },    
+    },
     {
       "name": "Gord Tanner",
       "email": "gtanner@gmail.com",

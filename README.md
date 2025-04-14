@@ -10,11 +10,11 @@
 
 Can be installed with:
 
-    $ npm install qrcode-terminal
+    $ npm install @samooth/qrcode-terminal
 
 and used:
 
-    var qrcode = require('qrcode-terminal');
+    import { default as qrcode } from 'qrcode-terminal';
 
 ## Usage
 
@@ -45,7 +45,7 @@ If you want to display small output, provide `opts` with `small`:
 
 ## Install
 
-    $ npm install -g qrcode-terminal
+    $ npm install -g @samooth/qrcode-terminal
 
 ## Usage
 
@@ -70,13 +70,14 @@ To setup the development envrionment run `npm install`
 
 To run tests run `npm test`
 
-# Contributers
+# Contributors
 
+    Tomás Díaz <tomas@bsv.direct>
     Gord Tanner <gtanner@gmail.com>
     Micheal Brooks <michael@michaelbrooks.ca>
 
-[travis-ci-img]: https://travis-ci.org/gtanner/qrcode-terminal.png
-[travis-ci-url]: https://travis-ci.org/gtanner/qrcode-terminal
-[basic-example-img]: https://raw.github.com/gtanner/qrcode-terminal/master/example/basic.png
+[travis-ci-img]: https://travis-ci.org/samooth/qrcode-terminal.png
+[travis-ci-url]: https://travis-ci.org/samooth/qrcode-terminal
+[basic-example-img]: https://raw.github.com/samooth/qrcode-terminal/master/example/basic.png
 [node-qrcode-url]: https://github.com/soldair/node-qrcode
 

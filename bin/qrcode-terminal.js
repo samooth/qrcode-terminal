@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-import { default as qrcode } from '../lib/main.mjs'
-import path from 'path'
+import { default as qrcode } from '../lib/main.mjs';
+import path from 'path';
 import fs from 'fs';
 
 /*!
@@ -30,13 +30,13 @@ if (process.stdin.isTTY) {
 
     var readline = require('readline');
 
-    var interface = readline.createInterface({
+    var inter = readline.createInterface({
         input: process.stdin,
         output: process.stdout,
         terminal: false
     });
 
-    interface.on('line', function(line) {
+    inter.on('line', function(line) {
         handleInput(line);
     });
 }

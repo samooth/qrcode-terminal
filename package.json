@@ -7,7 +7,7 @@
     "qrcode",
     "console"
   ],
-  "version": "0.13.2",
+  "version": "0.13.3",
   "description": "QRCodes, in the terminal",
   "homepage": "https://github.com/samooth/qrcode-terminal",
   "repository": {

@@ -2,7 +2,7 @@
 
 > Going where no QRCode has gone before.
 
-![Basic Example][basic-example-img]
+![Basic Example](example/basic.png)
 
 # Node Library
 

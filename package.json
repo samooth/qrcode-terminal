@@ -1,35 +1,51 @@
 {
   "name": "qrcode-terminal",
-  "keywords": ["ansi", "ascii", "qrcode", "console"],
-  "version" : "0.12.0",
-  "description" : "QRCodes, in the terminal",
-  "homepage": "https://github.com/gtanner/qrcode-terminal",
+  "type:": "module",
+  "keywords": [
+    "ansi",
+    "ascii",
+    "qrcode",
+    "console"
+  ],
+  "version": "0.13.0",
+  "description": "QRCodes, in the terminal",
+  "homepage": "https://github.com/samooth/qrcode-terminal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gtanner/qrcode-terminal"
+    "url": "https://github.com/samooth/qrcode-terminal"
   },
-  "contributors": [{
-    "name": "Gord Tanner",
-    "email": "gtanner@gmail.com",
-    "url": "http://github.com/gtanner"
-  }, {
-    "name": "Michael Brooks",
-    "email": "mikeywbrooks@gmail.com",
-    "url": "http://github.com/mwbrooks"
-  }],
-  "licenses": [{
-    "type": "Apache 2.0"
-  }],
+  "contributors": [
+    {
+      "name": "Tomás Díaz",
+      "email": "tomas@bsv.direct",
+      "url": "http://github.com/samooth"
+    },    
+    {
+      "name": "Gord Tanner",
+      "email": "gtanner@gmail.com",
+      "url": "http://github.com/gtanner"
+    },
+    {
+      "name": "Michael Brooks",
+      "email": "mikeywbrooks@gmail.com",
+      "url": "http://github.com/mwbrooks"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "Apache 2.0"
+    }
+  ],
   "main": "./lib/main",
   "bin": {
-      "qrcode-terminal": "./bin/qrcode-terminal.js"
+    "qrcode-terminal": "./bin/qrcode-terminal.js"
   },
   "preferGlobal": false,
   "devDependencies": {
-    "sinon": "*",
+    "expect.js": "^0.3.1",
+    "jshint": "*",
     "mocha": "*",
-    "expect.js": "*",
-    "jshint": "*"
+    "sinon": "*"
   },
   "scripts": {
     "test": "./node_modules/jshint/bin/jshint lib vendor && node example/basic.js && ./node_modules/mocha/bin/mocha -R nyan"

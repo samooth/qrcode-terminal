@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-var qrcode = require('../lib/main'),
-    path = require('path'),
-    fs = require('fs');
+import { default as qrcode } from '../lib/main.mjs'
+import path from 'path'
+import fs from 'fs';
 
 /*!
  * Parse the process name

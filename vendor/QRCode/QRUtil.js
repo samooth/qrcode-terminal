@@ -1,7 +1,7 @@
-var QRMode = require('./QRMode');
-var QRPolynomial = require('./QRPolynomial');
-var QRMath = require('./QRMath');
-var QRMaskPattern = require('./QRMaskPattern');
+import { default as QRMode } from './QRMode.js';
+import { default as QRPolynomial } from './QRPolynomial.js';
+import { default as QRMath } from './QRMath.js';
+import { default as QRMaskPattern } from './QRMaskPattern.js';
 
 var QRUtil = {
 
@@ -269,4 +269,4 @@ var QRUtil = {
 
 };
 
-module.exports = QRUtil;
+export default QRUtil;

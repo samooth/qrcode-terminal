@@ -1,6 +1,6 @@
-var expect = require('expect.js'),
-    qrcode = require('./../lib/main'),
-    sinon = require('sinon');
+import expect from 'expect.js'
+import * as qrcode from './../lib/main.mjs'
+import sinon from 'sinon'
 
 describe('in the main module', function() {
     describe('the generate method', function () {

@@ -1,6 +1,5 @@
 {
   "name": "@samooth/qrcode-terminal",
-  "type:": "module",
   "keywords": [
     "ansi",
     "ascii",
@@ -37,6 +36,7 @@
     }
   ],
   "main": "./lib/main.mjs",
+  "type": "module",
   "bin": {
     "qrcode-terminal": "./bin/qrcode-terminal.js"
   },
